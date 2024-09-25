@@ -26,19 +26,19 @@ This Python script is used to search for archive files (such as `.zip`, `.tar`, 
     pip install requests
     ```
 
-### Send Results to Telegram
+## Send Results to Telegram
 Send the search results of archive files to the configured Telegram bot.
 ```bash
 python3 archive-file-finder.py
 ```
 
-### Display Results in the Terminal Only
+## Display Results in the Terminal Only
 Use the `-x` option to display the results in the terminal without sending them to Telegram.
 ```bash
 python3 archive-file-finder.py -x
 ```
 
-### Display Help
+## Display Help
 To view the usage information, use the `--help` option.
 ```bash
 python3 archive-file-finder.py --help
